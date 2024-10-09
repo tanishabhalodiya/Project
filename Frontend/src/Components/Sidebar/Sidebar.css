@@ -1,0 +1,54 @@
+.show-button {
+    display: flex;
+    background-color: rgb(3, 39, 105);
+    color: #ffffff;
+    height: 50px;
+    align-items: center;
+    font-size: 35px;
+    cursor: pointer;
+  }
+  
+  .sidebar-filter-data {
+    background-color: rgb(217, 193, 15);
+    color: #1f0ade;
+    width: 250px;
+    display: flex;
+  
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: 850ms;
+  }
+  
+  .sidebar-filter-data.active {
+    left: 0;
+    transition: 350ms;
+  }
+  
+  .hide-icon {
+    font-size: 25px;
+    width: fit-content;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .filter-data {
+    color: red;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow-y: scroll;
+    gap: 45px;
+    width: 100%;
+    padding: 8px 24px;
+    background-color: rgb(236, 247, 248);
+  }
+  
+  .filter-data span {
+    padding: 5px;
+  }
+  
+  .filter-data span:hover {
+    background-color: #1a83ff;
+    cursor: pointer;
+  }

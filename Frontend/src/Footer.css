@@ -1,0 +1,72 @@
+:root {
+    --primary-color: #8bc34a; /* Light Green */
+    --secondary-color: #e74c3c; /* Red */
+    --heading-color: #7e417b; /* Dark Blue */
+    --text-color: #95a5a6; /* Light Gray */
+    --background-color: #ffffff; /* Changed to White Background */
+    
+    /* Updated theme */
+    --footer-background-color: #2c3e50; /* Dark Blue */
+    --footer-heading-color: #ecf0f1; /* Light Gray */
+    --footer-text-color: #bdc3c7; /* Soft Gray */
+    --footer-link-hover-color: #16a085; /* Teal Green */
+}
+
+.footer {
+    padding-top: 70px;
+    padding-bottom: 30px;
+    background-color: var(--footer-background-color);
+}
+
+.footer .logo {
+    width: 100%;
+}
+
+.footer .logo img {
+    width: 60%;
+    margin-bottom: 1rem;
+}
+
+.footer .logo p {
+    color: var(--footer-text-color);
+}
+
+.social__links span a {
+    text-decoration: none;
+    color: var(--footer-heading-color);
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.social__links span a:hover {
+    color: var(--footer-link-hover-color);
+}
+
+.footer__link-title {
+    color: var(--footer-heading-color);
+    margin-bottom: 1rem;
+}
+
+.footer__quick-links .list-group-item a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 1.1rem;
+}
+
+.footer__quick-links h6 {
+    color: var(--primary-color);
+}
+
+.footer__quick-links h6 span i {
+    color: var(--secondary-color);
+    font-size: 1.1rem;
+}
+
+.footer__quick-links p {
+    color: var(--footer-text-color);
+}
+
+.copyright {
+    color: var(--footer-text-color);
+    font-size: 1rem;
+}
